@@ -1,6 +1,6 @@
 import streamlit as st
-from dbintial import init_db
-from LLM import parse_with_llm
+from db_initial import init_db
+from LLM_parser import parse_with_llm
 import sqlite3
 
 st.title("Admin Chatbot with LLM")
